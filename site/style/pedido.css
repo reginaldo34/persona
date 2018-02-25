@@ -1,0 +1,37 @@
+
+body{ margin: 0; padding: 0;background-color: white; 
+	}
+
+.pedido{width: 90%; height: 500px;
+background-color: #98FB98;
+overflow: visible;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-top: 20%;
+margin-left: 5%;}
+
+table{color: blue; 
+
+ }
+ 
+input{margin-top: 10px;}
+
+
+
+
+
+
+
+/*
+<!-- <img src="imagem/branca de neve/itens/branca-de-neve-wallpaper.JPG"><img src="#">  <> ! @ {   }""@#$%¨&*()`{}?:<>|+_  </>  ="  "  : ;  :   %  # {   } @ {   } </>
+<  ="  " > <div class="cabeçalho"></div> -->
+
+<!--
+<>/@#{}!"":  <div class="login">
+<p><a href="#">Login </a></p>
+
+<p><a href="#">cadastro</a></p>
+</div>-->*/

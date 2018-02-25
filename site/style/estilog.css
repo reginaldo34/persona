@@ -1,0 +1,62 @@
+*{padding: 0;margin: 0; }
+
+body{background-color: rgba(0,100,255,.2);    }
+   
+
+.menu{ width: 100%; height: 1px;background-color: rgba(255,255,255,.3);font-family: 'arial';} 
+.menu ul{list-style: none;   position: relative; }
+.menu ul li{ width: 150px; float: left;   text-align: center;  }
+.menu a{  padding: 15px;display: block; text-decoration: none;
+    text-align: center;background-color: rgba(255,255,255,.3); color: green;} 
+.menu ul ul{ position: absolute;visibility: hidden;color: #fff; text-decoration: none;  }
+.menu ul li:hover ul{ visibility:visible;width: 150px;text-align: center; justify-content: center;   }
+.menu a:hover{ background-color: rgba(255,255,255,.3);color: #001111;  }
+.menu ul ul li{ float: none;border-bottom: solid #ccc;text-align: center;   }
+.menu ul ul li a{background-color:  rgba(255,255,255,.3);text-align: center; }
+
+label[for="bt_menu"]{padding: 10px;background-color: #222;color: #fff;
+  text-align: center; font-family: 'arial';font-size: 25px; cursor: pointer; 
+  width: 50px;height: 30px; }
+
+  #bt_menu{display: none;   }
+
+  label[for="bt_menu"]{display: none;   }
+  
+  @media(max-width: 800px){
+
+  label[for="bt_menu"]{ display: block; 
+   }  
+  #bt_menu:checked ~ .menu{margin-left: 0;   }
+  .menu{ margin-top: -5px; margin-left: -100%;transition: .7s; } 
+
+  .menu ul li{width: 100%;float: none;   }
+  .menu ul ul{ position: static;overflow: hidden; max-height: 0;transition: all .7s; } 
+  .menu ul li:hover ul{ height: auto; max-height:  100px;  } 
+}
+
+.faixa{ width:100%;height: 100px;background-color: green; margin-top: 0;background-image: url("../imagem/diário de um banana/jhjhhh.PNG");
+background-repeat: no-repeat;background-size: 100%  }
+.faixa img{ width: 100%;height: 100%; margin-top: -20px;  }
+
+.conteudo{width: 80%; height: 500px;background-color: #ff3555;margin-top: 75px;
+  margin-left: 10%;display: flex;flex-wrap: wrap;  justify-content: center;
+  align-items: flex-start; justify-content: space-between; 
+   } 
+
+
+.item{ width: 15%;height: 75px;background-color: green;margin-top: 25px;
+  margin: 5px;display: flex;flex-wrap: wrap;  justify-content: center;
+  align-items: flex-start; justify-content: space-between;margin-left: 3%; 
+   }
+   .item img{ width: 100%; height: 100%; }
+   
+.item h1{font-size: 50px;padding: 3px;color: #fffccc;text-decoration: none;
+    border-bottom: 1px solid white;}
+ 
+
+
+
+/*<!-- @media(){   } ! @ {   }""@#$%¨&*()`{}?:<>|+_  </>  ="  "  : ;  :  
+ %  # {   } @ {   }  <> </> 
+   
+      --> */ 

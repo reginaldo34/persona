@@ -1,0 +1,30 @@
+
+*{padding: 0; margin: 0; 
+	 box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;     }
+
+.container{
+width: 100%;margin-left:auto;margin-right: auto; padding: 0 20px;border: 1px solid black;  
+   }
+@media(min-width:1170px ){.container{width: 1170px;padding: 0; }   }
+
+.row{margin-left: -5px; margin-right: -5px;margin-top: 30px;columns: auto; }
+
+{   }
+{   }
+{   }
+
+
+
+
+
+
+
+
+
+
+/*<!-- @media(){   } ! @ {   }""@#$%¨&*()`{}?:<>|+_  </>  ="  "  : ;  :  
+ %  # {   } @ {   }  <> </> 
+   
+      --> */ 

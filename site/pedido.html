@@ -1,0 +1,288 @@
+<html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" type="text/css" href="style/pedido.css">
+<link rel="stylesheet" type="text/css" href="style/estilop.css">
+<script type="text/javascript" src="./java/pedido.js"></script> 
+<title>Persona artes</title>
+
+</head>
+<body>
+<header>
+<input type="checkbox" id="bt_menu" >
+<label for="bt_menu">&#9776;</label>
+ <nav class="menu" >
+<ul>
+    <li ><a href="#">HOME</a>
+    <ul>
+    </ul></li>
+      <li><a href="#">COMPRA</a>
+        <ul>
+     <li> <a href="file:///C:/Users/Ricardo/Desktop/site/calendario.html"> Calendário </a></li>
+     <li> <a href="file:///C:/Users/Ricardo/Desktop/site/pedido.html"> Pedido</a></li>
+      </li>   </ul>
+    <li ><a href="#">GALERIA</a>
+     <ul>
+     <li> <a href="#"> FESTAS </a></li>
+     <li> <a href="#"> EVENTOS</a>
+            </ul></li>
+
+
+     <li ><a href="file:///C:/Users/Ricardo/Desktop/site/menuopcoes.html">PRODUTOS</a>
+        <ul>
+     <li> <a href="#"> Caixinhas  </a></li>
+     <li> <a href="#"> Convites</a></li>
+     <li> <a href="#"> Bolos Fake</a></li>
+     <li> <a href="#"> Letras 3D </a></li>
+     </ul></li>
+  </ul>
+</nav>
+</header>
+
+</div>
+
+<div class="wrapper">
+  
+
+    <div class="pedido">
+<form method="POST" action="pedidojs.html" onsubmit="return enviar();">
+<table>
+ <tr>
+  <tr>
+     <td>Cliente </td>
+     <td><input type="text" name="cliente" id="cliente">
+     <td>tel.</td>
+     <td><input type="text" name="tel." id="tel."></td>
+    <tr>
+     <td>E-mail</td>
+	<td><input type="text" name="e-mail" id="e-mail"></td>
+	 </tr>
+    <tr>
+     <td>Nome da criança</td>
+     <td><input type="text" name="nome" id="nome"></td>
+     <td>Idade</td>
+     <td><input type="text" name="idade" id="idade"></td>
+     <td>sexo:</td>
+	<td>
+		<select name="sexo" id="sexo">
+		 <option value="F"> F</option>
+		 <option value="M"> M</option> 
+		 </select>
+	 </td>
+	 <tr>
+		<td>tema</td>
+     	<td><input type="text" name="tema" id="tema"></td>
+     	
+     	 <tr><td>MODELOS </td> 
+     	 <tr><td>Caixa </td>
+     	 	<td>
+		<select name="Caixa" id="Caixa">
+		 <option value="leite"> leite</option>
+		 <option value="bis"> bis</option> 
+		 <option value="carrinho"> carrinho</option>
+		 <option value="sushi"> sushi</option>
+		 <option value="quadrada"> quadrada</option>
+		 <option value="vestido"> vestido</option>
+		 <option value="bala"> bala</option>
+		 <option value="piramide"> piramide</option>
+		 <option value="maletinha"> maletinha</option>
+		 <option value="osso"> osso</option>
+		 </select>
+	 </td><td>Quantidade </td>
+	    	<td><input type="text" name="Quantidade" id="Quantidade"></td>
+     	 </tr>
+     	 <tr><td>Caixa </td>
+     	 	<td>
+		<select name="Caixa" id="Caixa">
+		 <option value="leite"> leite</option>
+		 <option value="bis"> bis</option> 
+		 <option value="carrinho"> carrinho</option>
+		 <option value="sushi"> sushi</option>
+		 <option value="quadrada"> quadrada</option>
+		 <option value="vestido"> vestido</option>
+		 <option value="bala"> bala</option>
+		 <option value="piramide"> piramide</option>
+		 <option value="maletinha"> maletinha</option>
+		 <option value="osso"> osso</option>
+		 </select>
+	 </td><td>Quantidade </td>
+	    	<td><input type="text" name="Quantidade" id="Quantidade"></td>
+     	 </tr>
+     	  <tr><td>Caixa </td>
+     	 	<td>
+		<select name="Caixa" id="Caixa">
+		 <option value="leite"> leite</option>
+		 <option value="bis"> bis</option> 
+		 <option value="carrinho"> carrinho</option>
+		 <option value="sushi"> sushi</option>
+		 <option value="quadrada"> quadrada</option>
+		 <option value="vestido"> vestido</option>
+		 <option value="bala"> bala</option>
+		 <option value="piramide"> piramide</option>
+		 <option value="maletinha"> maletinha</option>
+		 <option value="osso"> osso</option>
+		 </select>
+	 </td><td>Quantidade </td>
+	    	<td><input type="text" name="Quantidade" id="Quantidade"></td>
+     	 </tr>
+     	  <tr><td>Caixa </td>
+     	 	<td>
+		<select name="Caixa" id="Caixa">
+		 <option value="leite"> leite</option>
+		 <option value="bis"> bis</option> 
+		 <option value="carrinho"> carrinho</option>
+		 <option value="sushi"> sushi</option>
+		 <option value="quadrada"> quadrada</option>
+		 <option value="vestido"> vestido</option>
+		 <option value="bala"> bala</option>
+		 <option value="piramide"> piramide</option>
+		 <option value="maletinha"> maletinha</option>
+		 <option value="osso"> osso</option>
+		 </select>
+	 </td><td>Quantidade </td>
+	    	<td><input type="text" name="Quantidade" id="Quantidade"></td>
+     	 </tr>
+     	  <tr><td>Caixa </td>
+     	 	<td>
+		<select name="Caixa" id="Caixa">
+		 <option value="leite"> leite</option>
+		 <option value="bis"> bis</option> 
+		 <option value="carrinho"> carrinho</option>
+		 <option value="sushi"> sushi</option>
+		 <option value="quadrada"> quadrada</option>
+		 <option value="vestido"> vestido</option>
+		 <option value="bala"> bala</option>
+		 <option value="piramide"> piramide</option>
+		 <option value="maletinha"> maletinha</option>
+		 <option value="osso"> osso</option>
+		 </select>
+	 </td><td>Quantidade </td>
+	    	<td><input type="text" name="Quantidade" id="Quantidade"></td>
+     	 </tr>
+     	  <tr><td>Caixa </td>
+     	 	<td>
+		<select name="Caixa" id="Caixa">
+		 <option value="leite"> leite</option>
+		 <option value="bis"> bis</option> 
+		 <option value="carrinho"> carrinho</option>
+		 <option value="sushi"> sushi</option>
+		 <option value="quadrada"> quadrada</option>
+		 <option value="vestido"> vestido</option>
+		 <option value="bala"> bala</option>
+		 <option value="piramide"> piramide</option>
+		 <option value="maletinha"> maletinha</option>
+		 <option value="osso"> osso</option>
+		 </select>
+	 </td><td>Quantidade </td>
+	    	<td><input type="text" name="Quantidade" id="Quantidade"></td>
+     	 </tr>
+     	  <tr><td>Caixa </td>
+     	 	<td>
+		<select name="Caixa" id="Caixa">
+		 <option value="leite"> leite</option>
+		 <option value="bis"> bis</option> 
+		 <option value="carrinho"> carrinho</option>
+		 <option value="sushi"> sushi</option>
+		 <option value="quadrada"> quadrada</option>
+		 <option value="vestido"> vestido</option>
+		 <option value="bala"> bala</option>
+		 <option value="piramide"> piramide</option>
+		 <option value="maletinha"> maletinha</option>
+		 <option value="osso"> osso</option>
+		 </select>
+	 </td><td>Quantidade </td>
+	    	<td><input type="text" name="Quantidade" id="Quantidade"></td>
+     	 </tr>
+     	  <tr><td>Caixa </td>
+     	 	<td>
+		<select name="Caixa" id="Caixa">
+		 <option value="leite"> leite</option>
+		 <option value="bis"> bis</option> 
+		 <option value="carrinho"> carrinho</option>
+		 <option value="sushi"> sushi</option>
+		 <option value="quadrada"> quadrada</option>
+		 <option value="vestido"> vestido</option>
+		 <option value="bala"> bala</option>
+		 <option value="piramide"> piramide</option>
+		 <option value="maletinha"> maletinha</option>
+		 <option value="osso"> osso</option>
+		 </select>
+	 </td><td>Quantidade </td>
+	    	<td><input type="text" name="Quantidade" id="Quantidade"></td>
+     	 </tr>
+     	  <tr><td>Caixa </td>
+     	 	<td>
+		<select name="Caixa" id="Caixa">
+		 <option value="leite"> leite</option>
+		 <option value="bis"> bis</option> 
+		 <option value="carrinho"> carrinho</option>
+		 <option value="sushi"> sushi</option>
+		 <option value="quadrada"> quadrada</option>
+		 <option value="vestido"> vestido</option>
+		 <option value="bala"> bala</option>
+		 <option value="piramide"> piramide</option>
+		 <option value="maletinha"> maletinha</option>
+		 <option value="osso"> osso</option>
+		 </select>
+	 </td><td>Quantidade </td>
+	    	<td><input type="text" name="Quantidade" id="Quantidade"></td>
+     	 </tr>
+     	  <tr><td>Caixa </td>
+     	 	<td>
+		<select name="Caixa" id="Caixa">
+		 <option value="leite"> leite</option>
+		 <option value="bis"> bis</option> 
+		 <option value="carrinho"> carrinho</option>
+		 <option value="sushi"> sushi</option>
+		 <option value="quadrada"> quadrada</option>
+		 <option value="vestido"> vestido</option>
+		 <option value="bala"> bala</option>
+		 <option value="piramide"> piramide</option>
+		 <option value="maletinha"> maletinha</option>
+		 <option value="osso"> osso</option>
+		 </select>
+	 </td><td>Quantidade </td>
+	    	<td><input type="text" name="Quantidade" id="Quantidade"></td>
+     	 </tr>
+		
+	 
+     	</tr>
+    	<td><input class="enviar" type="submit" value="enviar" onclick="enviar()">
+    	</td>
+
+   </tr>
+   </table> 
+</form>
+<script type="text/javascript">
+  
+function enviar(){
+	var cliente =document.getElementById("cliente").value;
+	var tel. =document.getElementById("tel.").value;
+	var e-mail =document.getElementById("e-mail").value;
+      var nome =document.getElementById("nome").value;
+      var tema =document.getElementById("tema").value;
+      var idade =document.getElementById("idade").value;
+  	  var sexo =document.getElementById("sexo").value;
+	  var Caixa =document.getElementById("Caixa").value;
+	  var Quantidade =document.getElementById("Quantidade").value;
+
+  if(nome.lenght <= 5 || nome.lenght >30)
+  alert('Digite um nome válido');
+else {
+  if(tema.lenght <= 6 || tema.lenght >15 )
+    alert('tema inválido');
+  else
+  alert('Olá cliente. seu pedido foi enviado com sucesso\ncliente: '+cliente +'\ntel.: '+tel. +'\nnome: '+nome +'\nidade: '+idade +'\nsexo: '+sexo +'\ntema: '+tema +'\nCaixa: '+Caixa +'\nQuantidade: '+Quantidade );
+
+     }    
+    } 
+</script></div>
+  </main>
+
+
+
+
+
+</body>
+
+</html>
